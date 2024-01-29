@@ -32,3 +32,20 @@ http://sv.rf.gd/te1/testbk.php?i=1
 https://eoex6q4uby5vdex.m.pipedream.net/
 
 npx ng build --configuration production --base-href /ang2/
+
+"architect": {
+  "build": {
+    "options": {
+      "baseHref": "/my-app/"
+    }
+  }
+}
+
+
+https://angular.io/guide/build
+
+ng generate environments
+
+ng build --configuration=production
+
+npx ng serve --configuration=development
